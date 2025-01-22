@@ -1,0 +1,1 @@
+import{j as a}from"./index-BA9Qst-3.js";const s=({text:t,show:e})=>a.jsx("div",{className:`fixed ${e?"animate-fade-in":"animate-fade-out"} text-xs bottom-5 w-[90%] text-white translate-x-1/2 right-1/2 bg-slate-800 px-3 py-2 rounded-full`,children:t});export{s as S};

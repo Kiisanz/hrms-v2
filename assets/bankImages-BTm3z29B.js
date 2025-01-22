@@ -1,0 +1,1 @@
+import{B,M as n,a as s,b as t,c as k,d as e,e as o,C as I,f as r,D as C,O as S,P as i}from"./cimb-CaaVeKGX.js";const m="/assets/bpjs_ks-LEYpRUUV.webp",P="/assets/bpjs_kt-BCdaBMcp.webp",g={BCA:B,Mandiri:n,BNI:s,BNI_Syariah:t,BRI:k,BSI:e,BTPN:o,CIMB:I,Citibank:r,Danamon:C,OCBC:S,Permata:i},c=a=>g[a]||null,p={BPJSKT:P,BPJSKS:m},M=a=>p[a]||null;export{M as a,c as g};

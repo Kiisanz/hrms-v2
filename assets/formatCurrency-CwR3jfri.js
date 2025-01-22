@@ -1,0 +1,1 @@
+const n=(r,t="Rp.")=>{if(!r)return`${t} 0,00`;const i=typeof r=="string"?parseFloat(r):r;if(isNaN(i))return console.error("Invalid amount provided to formatCurrency:",r),`${t} 0,00`;const o=i.toLocaleString("id-ID",{minimumFractionDigits:2,maximumFractionDigits:2});return`${t} ${o}`};export{n as f};

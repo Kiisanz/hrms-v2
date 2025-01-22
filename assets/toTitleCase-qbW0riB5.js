@@ -1,0 +1,1 @@
+function n(t){return t?t.replace(/_/g," ").toLowerCase().split(" ").map(function(e){return e.length>1&&!["and","or","the","in","on","at","a","an","of","for"].includes(e.toLowerCase())?e.charAt(0).toUpperCase()+e.slice(1):e.toLowerCase()}).join(" "):null}export{n as t};
