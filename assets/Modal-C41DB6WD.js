@@ -1,0 +1,6 @@
+import{c,j as s}from"./index-D60U4SCw.js";/**
+ * @license @tabler/icons-react v3.22.0 - MIT
+ *
+ * This source code is licensed under the MIT license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var x=c("outline","grid-scan","IconGridScan",[["path",{d:"M10 8v8",key:"svg-0"}],["path",{d:"M14 8v8",key:"svg-1"}],["path",{d:"M8 10h8",key:"svg-2"}],["path",{d:"M8 14h8",key:"svg-3"}],["path",{d:"M4 8v-2a2 2 0 0 1 2 -2h2",key:"svg-4"}],["path",{d:"M4 16v2a2 2 0 0 0 2 2h2",key:"svg-5"}],["path",{d:"M16 4h2a2 2 0 0 1 2 2v2",key:"svg-6"}],["path",{d:"M16 20h2a2 2 0 0 0 2 -2v-2",key:"svg-7"}]]);const a=({title:e,isOpen:t,position:d="center",rounded:r="rounded-xl",onClose:v,children:o,width:n="[65%]"})=>t?s.jsx("div",{className:`fixed inset-0 z-50 flex items-center justify-${d} bg-black bg-opacity-50`,children:s.jsx("div",{className:`bg-white  ${r} shadow-lg w-${n}`,children:o})}):null,i=({children:e})=>s.jsx("div",{className:"py-4 border-b border-zinc-300 mb-5",children:s.jsx("h2",{className:"text-lg font-semibold px-6",children:e})}),l=({children:e})=>s.jsx("div",{className:"px-6",children:e}),p=({children:e})=>s.jsx("div",{className:"flex justify-end gap-4 pt-4 pb-6 px-6",children:e});a.Header=i;a.Body=l;a.Footer=p;export{x as I,a as M};
